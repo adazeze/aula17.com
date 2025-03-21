@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+section.cabecalho{
+	display: flex;
+	justify-content: center;
+}
+section.texto h1{
+	border: 2px solid white;
+	font-size: 30px;
+}
+section.cabecalho h1{
+	border: 2px solid white;
+	font-family: sans-serif;
+	background-color: rgb(255,255,255,0.5);
+	border-radius: 10px;
+
+}
+section.cabecalho h1 p{
+	padding: 5%;
+	border: 2px solid yellow;
+	border-radius: 10px;
+	margin-left: 20vw;
+	margin-top: 5%;
+	font-size: 30px;
+}
+section.cabecalho div:hover{
+	background-color: cyan;
+
+}
+body{
+	font-family: font-family: "Roboto", sans-serif;
+	background-image: url(../img/imagem-musica.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100vw 100vh;
+	font-size: 25px;
+
+}
+section div p{
+	color: white;
+	margin-top: 10%;
+	margin-left: 3vw;
+	margin-right: 1vw;
+
+}
+#texto{
+	width: 50vw;
+	height: 60vh;
+	margin-left: 5vw;
+	border: 6px solid black;
+	margin-top: 4%;
+	margin-right: 4vw;
+	border-radius: 10px;
+
+}
+section.video{
+	display: flex;
+	padding: 4vw;
+	margin-top: 5%;
+	display: flex;
+	justify-content: center;
+	border: 3px solid cyan;
+	border-radius: 16px;
+	background-color: black;
+
+}
+section.video iframe{
+	display: flex;
+	justify-content: center;
+	padding: 1vw;
+}
+section.topo h1{
+	margin-left: 4vw;
+	font-family: sans-serif;
+	margin-top: 4%;
+	border: 2px solid gray;
+	width: 92vw;
+	background-color: black;
+	color: white;
+	display: flex;
+	justify-content: center;
+
+
+}
+@media (max-width: 800px){
+#texto{
+	width: 100vw;
+	height: 100vh;
+	margin-left: 5vw;
+	border: 6px solid black;
+	margin-top: 4%;
+	margin-right: 4vw;
+	border-radius: 10px;
+}
